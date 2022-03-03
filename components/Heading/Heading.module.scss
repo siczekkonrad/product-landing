@@ -1,0 +1,40 @@
+.h1 {
+    font-size: var(--headingLargeSize);
+    line-height: 1.12;
+    font-weight: 300;
+
+    span {
+        font-size: var(--40);
+    }
+
+    @media screen and (max-width: 992px) {
+        font-size: var(--40);
+
+        span {
+            font-size: var(--30);
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: var(--30);
+
+        span {
+            font-size: var(--20);
+        }
+    }
+}
+
+.h2 {
+    font-size: var(--headingLargeSize);
+    line-height: 1.2;
+    font-weight: 300;
+    font-family: var(--lato);
+
+    @media screen and (max-width: 992px) {
+        font-size: var(--40);
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: var(--30);
+    }
+}

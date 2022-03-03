@@ -1,0 +1,9 @@
+.container {
+    width: 100%;
+    max-width: 132.1rem;
+    margin: 0 auto;
+
+    @media screen and (max-width: 1330px) {
+        padding: 0 var(--20);
+    }
+}

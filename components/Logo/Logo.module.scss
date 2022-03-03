@@ -1,0 +1,9 @@
+.Logo {
+    position: absolute;
+    top:0;
+    left:0;
+
+    @media screen and (max-width: 992px) {
+        transform: rotate(90deg) translate(-81px, -79px);
+    }
+}

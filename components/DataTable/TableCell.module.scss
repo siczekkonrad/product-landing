@@ -1,0 +1,29 @@
+.th {
+    padding: var(--10) 0;
+
+    @media screen and (max-width: 768px) {
+        padding-left: var(--10);
+        font-weight: 700;
+    }
+}
+
+.td {
+    grid-column: span 3 / span 3;
+    padding: var(--10);
+
+    span {
+        display: block;
+    }
+
+    div {
+        font-size: 0.9em;
+    }
+
+    sub {
+        font-size: 0.72em;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: var(--12);
+    }
+}

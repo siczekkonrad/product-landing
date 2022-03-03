@@ -1,0 +1,20 @@
+.paragraph {
+    a {
+        color: var(--hyperlink);
+        text-decoration: underline;
+    }
+}
+
+.medium {
+    font-size: var(--paragraphMediumSize);
+    line-height: 1.625;
+}
+
+.large {
+     font-size: var(--paragraphLargeSize);
+     line-height: 1.5;
+
+    @media screen and (max-width: 992px) {
+        font-size: var(--paragraphMediumSize);
+    }
+}

@@ -1,0 +1,36 @@
+.Description {
+    color: var(--text-color);
+    font-family: var(--lato);
+
+    .Heading {  
+        margin-bottom: var(--34);
+
+        &:not(:first-of-type) {
+            margin-top: var(--40);
+        }
+
+        &.Heading__marginTop0 {
+            margin-top: 0;
+        }
+
+        &.Heading__marginTop33 {
+            margin-top: var(--33);
+        }
+    }
+
+    p {
+        font-weight: 300;
+
+        &:not(:last-child) {
+            margin-bottom: var(--30);
+        }
+
+        &.Paragraph__marginBottom24 {
+            margin-bottom: var(--24);
+        }
+
+        &.Paragraph__marginBottom33 {
+            margin-bottom: var(--33);
+        }
+    }
+}

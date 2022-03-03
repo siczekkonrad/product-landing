@@ -1,0 +1,48 @@
+.Banner {
+    position: relative;
+    padding: var(--141) 0 var(--145) 0;
+    background-color: var(--blue);
+    color: var(--white);
+    font-family: 'Gotham';
+
+    @media screen and (max-width: 992px) {
+        padding: var(--100) 0;
+    }
+
+    &__image {
+        position: relative;
+        right: -0.9rem;
+    }
+
+    &__small {
+        @media screen and (min-width: 993px) {
+            display: none;
+        }
+
+        margin-bottom: var(--20);
+    }
+
+    &__desktop {
+        @media screen and (max-width: 992px) {
+            display: none;
+        }
+    }
+
+    &__heading {
+        margin-bottom:var(--36);
+    }
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+
+        > div {
+            padding-top: 1.3rem;
+            padding-right: 2rem;
+        }
+    }
+
+    &__paragraph {
+        padding-top: var(--32);
+    }
+}

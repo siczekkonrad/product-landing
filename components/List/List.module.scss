@@ -1,0 +1,14 @@
+.List {
+    list-style: decimal;
+    padding-left: var(--24);
+
+    &__element {
+        font-size: var(--20);
+        line-height: 1.5;
+        font-weight: 300;
+
+        @media screen and (max-width: 480px) {
+            font-size: var(--12);
+        }
+    }
+}

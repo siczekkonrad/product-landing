@@ -1,0 +1,24 @@
+.DataTable {
+    margin-top: var(--21);
+    font-size: var(--20);
+    font-weight: 300;
+    line-height: 1.5;
+
+    @media screen and (max-width: 992px) {
+        font-size: var(--16);
+    }
+
+    &__row {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        &:not(:last-child) {
+            border-bottom: 1px solid rgba(#979797, 0.3);
+        }
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}

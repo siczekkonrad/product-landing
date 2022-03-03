@@ -1,0 +1,12 @@
+.Specification {
+
+    &.last {
+        padding-top: var(--55);
+    }
+
+    &__explanations {
+        margin-top: var(--50);
+        font-size: var(--13);
+        text-align: right;
+    }
+}
